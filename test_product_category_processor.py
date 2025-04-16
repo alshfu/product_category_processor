@@ -13,11 +13,11 @@
 """
 
 from pyspark.sql import SparkSession
-from pyspark.sql import functions as F
 
 # Импортируем класс для тестирования. Предполагается, что файл с классом называется
 # product_category_processor.py и находится в той же директории, что и данный тестовый файл.
 from product_category_processor import ProductCategoryProcessor
+
 
 def create_test_data(spark):
     """
